@@ -8,9 +8,7 @@ license = "LGPL-2.1 OR MPL-1.1"
 repository = "https://github.com/johni0702/rust-libnice"
 
 [dependencies]
-#libnice-sys = "0.3"
-libnice-sys = { git = "https://github.com/WolverinDEV/rust-libnice-sys" }
-#libnice-sys = { path = "..\\rust-libnice-sys" }
+libnice-sys = { git = "https://github.com/jorgebarreraa/rust-libnice-sys" }
 libc = "0.2"
 glib = "0.9"
 futures = "0.3"
